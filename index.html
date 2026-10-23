@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - Cuidado Dental & Servicios</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <i class="fas fa-bars menu-toggle"></i>
+                <div class="logo">
+                    <img src="./imagenes/1.jpeg" alt="Logo de Dentamir">
+                    <span class="logo-text">Consultorio Dental</span>
+                </div>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#" class="active">Inicio</a></li>
+                    <li><a href="Galeria.html">Conocenos</a></li>
+                    <li><a href="Galeria_de_servicios.html" target="_blank">Servicios</a></li>
+                    <li><a href="https://maps.app.goo.gl/T6ewPUsRytvcuP1Q8">Ubicacion</a></li>
+                    <li><a href="contacto.php" class="btn-signup">Registrarse</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+    
+        <div class="deco-shape shape-top-left"></div>
+        <div class="deco-shape shape-bottom-right"></div>
+        <div class="deco-plus plus-top">+</div>
+        <div class="deco-plus plus-bottom">+</div>
+
+        <div class="hero-wrapper">
+            
+            <div class="social-sidebar">
+    <a href="https://www.facebook.com/Clínicas Dentamir" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/clinicasdentamir" target="_blank" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+</div>
+
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="wave-decoration">~~</div>
+                    <h1>CUIDA<br>TU<br><span>SONRISA</span></h1>
+                    
+                    <div class="call-schedule">
+                        <span class="sub-title">LLAMA Y PROGRAMA TU CITA</span>
+                        <div class="arrows">>>>></div>
+                    </div>
+
+                    <p>Cuidamos de tu sonrisa con la tecnología más avanzada y un equipo de profesionales comprometidos con tu bienestar dental.</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="Galeria.html" class="btn-know-more">conoce más</a>
+                        <a href="contacto.php" class="btn-primary-alt">Agendar Cita</a>
+                    </div>
+                    
+                    <div class="dots-grid dots-left"></div>
+                </div>
+
+                <div class="hero-image-wrapper">
+                    <div class="dots-grid dots-center"></div>
+                    <div class="image-card">
+                        <img src="./imagenes/1.jpeg" alt="Especialistas" class="main-hero-img">
+                        <div class="discount-badge">
+                            <span>Descuento</span>
+                            <p>En todo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="floating-appointment-bar">
+            <form action="contacto.php" method="GET">
+                <div class="form-group">
+                    <label>Horarios</label>
+                    <span>Lunes a Viernes: 9:00 - 18:00</span>
+                </div>
+                <div class="form-group">
+                    <label for="quick-name">Nombre:</label>
+                    <input type="text" id="quick-name" name="name" placeholder="Tu nombre...">
+                </div>
+                <div class="form-group">
+                    <label for="quick-date">Fecha:</label>
+                    <input type="date" id="quick-date" name="consultationday">
+                </div>
+                <button type="submit" class="btn-submit-bar">Reservar Ahora</button>
+            </form>
+        </div>
+    </section>
+
+    <main class="media-section">
+        <h2 class="section-title">Nuestras Promociones y Clínicas</h2>
+        <div class="media-grid">
+            
+            <div class="card-media">
+                <div class="slider-container">
+                    <button class="prev">❮</button>
+                    <div class="slider">
+                        <div class="slide active">
+                            <img src="./imagenes/9.jpg" alt="Ortodoncia">
+                            <div class="caption">
+                                <h2>Ortodoncia</h2>
+                                <p>Descuento del 20% en consulta dental</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./imagenes/8.jpg" alt="Limpieza Dental">
+                            <div class="caption">
+                                <h2>Limpieza Dental</h2>
+                                <p>Descuento del 15% en limpiezas dentales</p>
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <img src="./imagenes/7.jpg" alt="Brackets">
+                            <div class="caption">
+                                <h2>Brackets</h2>
+                                <p>Descuento del 25% en brackets</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="next">❯</button>
+                    <div class="slider-dots"></div>
+                </div>
+            </div>
+
+            <div class="card-media">
+                <div class="video-wrapper">
+                    <video controls poster="./video/video.mp4">
+                        <source src="./video/video.mp4" type="video/mp4">
+                        Tu navegador no soporta vídeos.
+                    </video>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© Consultorio Dental Héroes Tecámac. Todos los derechos reservados a Diego Rivas, Alison no hizo nada.</p>
+            <p>Contacto: Teléfono 55 19 9702 54 | <a href="mailto:info@consultoriodentalheroes.com">info@consultoriodentalheroes.com</a></p>
+            <p>no se la direccion</p>
+            <p><a href="https://maps.app.goo.gl/T6ewPUsRytvcuP1Q8" target="_blank" class="maps-link">Ver en Google Maps</a></p>
+        </div>
+    </footer>
+
+    <script src="./javascript/javasc.js"></script>
+</body>
+</html>
